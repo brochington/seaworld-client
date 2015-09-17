@@ -25,6 +25,6 @@
   	"prod": "NODE_ENV=production node app.js"
   },
   "engines": {
-    "node": "4.1.x"
+    "node": "4.0.0"
   }
 }
