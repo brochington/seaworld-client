@@ -5,7 +5,8 @@
   "author": "Broch Stilley",
   "devDependencies": {
     "babel-core": "^5.8.23",
-    "webpack": "^1.12.0"
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
   },
   "dependencies": {
     "immutable-js": "^0.3.1-6",
@@ -18,13 +19,7 @@
     "react-router": "^0.13.3",
     "redux": "^2.0.0"
   },
-  "scripts": {
-  	"dev": "gulp dev",
-  	"start": "node app.js",
-  	"build": "gulp build",
-  	"prod": "NODE_ENV=production node app.js"
-  },
   "engines": {
-    "node": "4.0.0"
+    "node": "4.1.x"
   }
 }
