@@ -23,5 +23,8 @@
   	"start": "node app.js",
   	"build": "gulp build",
   	"prod": "NODE_ENV=production node app.js"
+  },
+  "engines": {
+    "node": "4.1.x"
   }
 }
